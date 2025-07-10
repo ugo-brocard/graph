@@ -1,0 +1,27 @@
+{
+    "name": "ugo-brocard/graph",
+    "description": "A PHP Graph Package",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Graph\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ugo Brocard",
+            "email": "ugo.brocard.official@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
